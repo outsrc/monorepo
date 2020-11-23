@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --coverage",
     "storybook": "start-storybook -p 6006",
-    "lint": "eslint --ext .ts,.tsx,.js packages"
+    "lint": "eslint --ext .ts,.tsx,.js packages",
+    "generate": "plop --plopfile .plop/plopfile.ts"
   },
   "keywords": [],
   "author": "",
