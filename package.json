@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "lint": "eslint --ext .ts,.tsx,.js packages"
   },
   "keywords": [],
   "author": "",

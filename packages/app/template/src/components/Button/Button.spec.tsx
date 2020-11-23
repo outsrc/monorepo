@@ -8,4 +8,3 @@ test('loads and displays greeting', async () => {
 
   expect(screen.getByTestId('button')).toHaveTextContent('Click Here')
 })
-

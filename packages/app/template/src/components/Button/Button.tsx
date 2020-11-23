@@ -13,4 +13,3 @@ export const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
     </button>
   )
 }
-
