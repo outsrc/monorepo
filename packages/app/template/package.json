@@ -1,0 +1,20 @@
+{
+  "name": "@outsrc/template",
+  "version": "0.0.0",
+  "description": "Frontend App Template",
+  "scripts": {
+    "dev": "next -p 3010",
+    "build": "yarn clean && next build && next export",
+    "clean": "rimraf .next && rimraf out",
+    "storybook": "start-storybook -p 6006",
+    "test": "jest --coverage --config ../../../jest.config.js src/**/* __tests__/**/*",
+    "start": "yarn build && cd out && ws -p 3010"
+  },
+  "config": {
+    "port": 3010,
+    "path": "/template"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
