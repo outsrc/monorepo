@@ -7,7 +7,7 @@
     "build": "yarn clean && next build && next export",
     "clean": "rimraf .next && rimraf out",
     "storybook": "start-storybook -p 6006",
-    "test": "jest --coverage --config ../../../jest.config.js src/**/* __tests__/**/*",
+    "test": "jest --coverage --config ../../../jest.config.js ./src/**/* ./__tests__/**/*",
     "start": "yarn build && cd out && ws -p 3010"
   },
   "config": {
@@ -15,6 +15,8 @@
     "path": "/template"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/react": "^6.1.2"
+  }
 }
-

@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "storybook": "start-storybook -p 6006",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "storybook": "start-storybook -p 6006"
   },
   "keywords": [],
   "author": "",
