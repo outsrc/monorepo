@@ -9,7 +9,8 @@
     "lint": "eslint --ext .ts,.tsx,.js packages",
     "generate": "plop --plopfile .plop/plopfile.ts",
     "start": "ts-node -P tsconfig.json .scripts/start.ts",
-    "stop": "ts-node -P tsconfig.json .scripts/stop.ts"
+    "stop": "ts-node -P tsconfig.json .scripts/stop.ts",
+    "change-org": "ts-node -P tsconfig.json .scripts/change-org.ts"
   },
   "keywords": [],
   "author": "",
