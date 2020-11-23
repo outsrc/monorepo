@@ -7,7 +7,9 @@
     "test": "jest --coverage",
     "storybook": "start-storybook -p 6006",
     "lint": "eslint --ext .ts,.tsx,.js packages",
-    "generate": "plop --plopfile .plop/plopfile.ts"
+    "generate": "plop --plopfile .plop/plopfile.ts",
+    "start": "ts-node -P tsconfig.json .scripts/start.ts",
+    "stop": "ts-node -P tsconfig.json .scripts/stop.ts"
   },
   "keywords": [],
   "author": "",
